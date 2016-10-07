@@ -1,0 +1,13 @@
+{
+    "name": "sixs/backup",
+    "description": "Mysql Backup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pratiksha",
+            "email": "dev@sixs.in"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
