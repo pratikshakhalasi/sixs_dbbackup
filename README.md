@@ -33,4 +33,10 @@ step-8: Run your project url{domain/public}/sixs/backup
 
 Note: require to use composer require laravelcollective/html
 
+--------------------------------------------------------------------
+To get backup mail based on frequecy setting, You need to setup a Cron
+
+use following command for cron:
+/usr/bin/curl -o temp.txt http://yourdomain/sixsbackup/sendbackup
+
 

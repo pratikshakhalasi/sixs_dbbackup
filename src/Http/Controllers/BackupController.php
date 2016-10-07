@@ -7,7 +7,7 @@ use DB;
 use Response;
 use Redirect;
 use Sixs\Backup\Models\SixsBackup;
-
+use Mail;
 Class BackupController extends Controller
 {
 	public function Index(Request $request)
