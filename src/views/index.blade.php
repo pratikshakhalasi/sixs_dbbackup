@@ -16,13 +16,11 @@
 						<legend>
 							<div class="top_title">Backup Settings</div>
 							<div class="pull-right" style="margin-top: -30px;">
-								<a href="{{ URL::to( 'sixsbackup/download')}}" class="btn btn-sm btn-white"><i class="icon-file-download"></i> Manual Backup</a>
+								<a href="<?php echo url();?>/sixsbackup/download')}}" class="btn btn-sm btn-white"><i class="icon-file-download"></i> Manual Backup</a>
 								
 							</div>
 							
 						</legend>
-						
-						<input type="hidden" id="base_url" value="<?php echo url();?>">
 						
 						<?php foreach($results as $result): ?>
 						<?php if($result->settings_input_type != 'hidden'): ?>
