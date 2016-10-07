@@ -31,4 +31,6 @@ step-7: Create "sixsbackup" folder in upload directory
 
 step-8: Run your project url{domain/public}/sixs/backup
 
+Note: require to use composer require laravelcollective/html
+
 
